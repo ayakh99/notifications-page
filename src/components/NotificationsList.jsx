@@ -6,7 +6,7 @@ const NotificationsList = () => {
   const { content } = useContext(NotificationsContext);
 
   return (
-    <ul className="notifications" aria-label="notifications">
+    <ul className="notifications">
       {content.map((notification, i) => (
         <Notification key={i} data={notification} />
       ))}

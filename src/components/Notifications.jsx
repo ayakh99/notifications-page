@@ -10,9 +10,7 @@ const Notifications = () => {
     <div className="container">
       <header className="header">
         <h1 className="heading">Notifications</h1>
-        <span className="badge" aria-label="unread notifications count">
-          {unread}
-        </span>
+        <span className="badge">{unread}</span>
         <a
           href="#"
           className="option | transition"

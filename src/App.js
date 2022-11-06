@@ -8,7 +8,9 @@ function App() {
   return (
     <NotificationsContextProvider>
       <Notifications />
-      <Attribution data={attribution} />
+      <footer>
+        <Attribution data={attribution} />
+      </footer>
     </NotificationsContextProvider>
   );
 }
