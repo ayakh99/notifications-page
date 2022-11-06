@@ -35,5 +35,3 @@ Users should be able to:
 ### Built with
 
 - React
-- Vite
-- CSS
